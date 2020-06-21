@@ -1,0 +1,333 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.slider_content h4 {
+		font-size: 11px;
+	}
+	.main_manu{
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+		width: 100%;
+		float: right;
+		background-color: transparent;
+		margin-top: -56px;
+	}
+	.slider_content h2 {
+		font-size: 36px;
+		margin-top: 35px;
+		margin-bottom: 60px;
+	}
+	.slider_content a.border_btn {
+		padding: 7px 20px;
+		font-size: 13px;
+	}
+	.about_content h2 {
+		margin-bottom: 12px;
+		font-size: 27px;
+	}
+	.service_area {
+		padding-bottom: 50px;
+		padding-top: 60px;
+	}
+	.service_content h2 {
+		font-size: 32px;
+		margin-bottom: 32px;
+	}
+	.service_content p {
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	.single_service {
+		margin-bottom: 30px;
+	}
+	.single_feature_first, .single_feature_second, .parallax_img, .advantage_all_img {
+		height: 500px !important;
+	}
+	.single_feature_content {
+		padding: 70px 0px;
+		text-align: center;
+	}
+	.single_feature_content h4 {
+		font-size: 17px;
+		margin-bottom: 20px;
+		margin-top: 5px;
+	}
+	.single_feature_content h2 {
+		margin-bottom: 25px;
+	}
+	.single_feature_content p {
+		font-size: 14px;
+		display: inline-block;
+		width: 92%;
+	}
+	.single_feature_content a.border_btn {
+		padding: 10px 30px;
+		font-size: 12px;
+		border-radius: 10px;
+	}
+	.parallax_feature_area {
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.parallax_content {
+		text-align: center;
+		font-size: 32px;
+		padding-bottom: 30px
+	}
+	.single_parallax {
+		margin-bottom: 25px;
+	}
+	.info_content {
+		text-align: center;
+		padding-top: 60px;
+	}
+	.info_content h4 {
+		margin-bottom: 15px;
+		font-size: 18px;
+	}
+	.info_content p {
+		margin-bottom: 35px;
+		font-size: 13px;
+		display: inline-block;
+		font-weight: 400;
+		margin-top: 20px;
+	}
+	.info_content a.box_btn{
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	.single_info {
+		padding-left: 0px;
+	}
+	.single_info_content h4, .advantage_all h4{
+		font-size: 17px;
+		margin-bottom: 6px;
+	}
+	.single_info_content p, .advantage_all p {
+		font-size: 12px;
+		display: inline-block;
+	}
+	.advantage_all {
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	
+	}
+	.advantage_all h2 {
+		font-size: 36px;
+		margin-bottom: 25px;
+		display: inline-block;
+		margin-top: 15px;
+	}
+	.single_counter {
+		padding: 20px 0px 20px 60px;
+	}
+	.counter_content h4 {
+		font-size: 28px;
+	}
+	.counter_content p {
+		font-size: 13px;
+	}
+	.single_counter i.fas.fa-users, .single_counter i.fa.fa-camera, .single_counter i.fas.fa-layer-group, .single_counter i.far.fa-comment-dots, .single_info i.fas.fa-desktop, .single_info i.far.fa-chart-bar, .single_info i.fas.fa-book {
+		font-size: 41px;
+		display: inline-block;
+	}
+	.video_area_content h1 {
+		font-size: 28px;
+	}
+	.single_blog_content {
+		padding: 30px 0px;
+	}
+	.single_blog_content h5 {
+		font-size: 15px;
+	}
+	.single_blog_content a.post_title {
+		font-size: 15px;
+	}
+	.single_footer_end_img {
+		width: 28%;
+	}
+	.footer_end_info {
+		padding-left: 128px;
+	}
+	.single_footer_end.subscribe input[type="text"] {
+		padding: 4px 160px 3px 20px;
+	}
+	.instagram_img img {
+		max-width: 90%;
+	}
+	.slicknav_menu {
+		display: block;
+		width: 90%;
+		float: right;
+		background-color: transparent;
+		margin-top: -56px;
+	}
+	
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	
+	.main_manu{
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+		width: 100%;
+		float: right;
+		background-color: transparent;
+		margin-top: -56px;
+	}
+	.slider_content {
+		left: 24% !important;
+	}
+	.slider_content h4 {
+		font-size: 11px;
+	}
+	.slider_content h2 {
+		font-size: 30px;
+		word-spacing : 7px; 
+		
+	}
+	.slider_content a.border_btn {
+		font-size: 12px;
+	}
+	.owl-nav {
+		display: none;
+	}
+	.about_area {
+		display: none;
+	}
+	.service_area {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.service_content {
+		padding: 10px 10px 70px 10px;
+	}
+	.service_content h2 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	
+	}
+	.service_content p {
+		font-size: 15px;
+	}
+	.single_service {
+		padding: 50px;
+		margin-bottom: 20px;
+	}
+	.single_feature_content {
+		text-align: center;
+	}
+	.single_feature_first, .single_feature_second, .parallax_img, .advantage_all_img {
+		height: 400px !important;
+	}
+	.single_service_content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.portfolio_list {
+		margin-top: 10px;
+		margin-bottom: 40px;
+		width: 100%;
+	}
+	.portfolio_list ul li {
+		display: block;
+		margin-left: 0;
+	}
+	.portfolio_list ul li:hover, .portfolio_list ul li.active{
+		display: inline
+	}
+	.parallax_content h2 {
+		font-size: 30px;
+		display: inline-block;
+		text-align: center;
+	}
+	.single_parallax, .single_info, .single_counter{
+		margin-bottom: 30px;
+		text-align: center;
+		padding-left: 0;
+		position: unset;
+	}
+	.single_parallax .fas.fa-users, .single_parallax .fa.fa-camera, .single_parallax .fas.fa-layer-group, .single_counter .fas.fa-users, .single_counter .fa.fa-camera, .single_counter .fas.fa-layer-group, .single_counter .far.fa-comment-dots, .single_info .fas.fa-desktop, .single_info .far.fa-chart-bar, .single_info .fas.fa-book{
+		margin-bottom: 15px;
+		position: unset;
+	}
+	.single_info_content{
+		padding-left: 0;
+	}
+	.advantage_all {
+		text-align: center;
+		padding: 54px 0px;
+	}
+	.section_content::before {
+		width: 90px;
+		right: 43%;
+		bottom: -17px;
+		margin-right: 0;
+	}
+	.info_area {
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	.info_content {
+		padding: 0px;
+		text-align: center;
+		padding-top: 25px;
+	}
+	.video_area_content {
+		padding: 10px;
+		text-align: center;
+	}
+	.video_area_content i.far.fa-play-circle {
+		font-size: 50px;
+		margin-top: 20px;
+	}
+	.video_area_content h1 {
+		font-size: 28px;
+		margin-bottom: 20px;	
+	}
+	.blog_area {
+		padding-bottom: 20px;
+	}
+	.single_blog_content {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.footer_top_area {
+		text-align: center;
+	}
+	.social_icon {
+		padding-top: 0px;
+		text-align: center;;
+	}
+	.single_footer_end {
+		text-align: center;
+		min-height: 0;
+		margin-bottom: 30px;
+	}
+	.single_footer .logo img {
+		left: 60%;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
